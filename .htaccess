@@ -1,0 +1,4 @@
+AuthName "Autorizacion requerida"
+AuthUserFile C:\xampp\htdocs\.htpasswd
+AuthType Basic
+require user marbin 

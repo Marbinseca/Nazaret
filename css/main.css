@@ -1,0 +1,6 @@
+.container-fluid{
+    background-image: url(../image/phi.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50px;
+  }
