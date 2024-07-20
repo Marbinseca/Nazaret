@@ -7,7 +7,7 @@
         include '../modelo/conexion.php';
 
         $user = $_POST['user'];
-        $password = $_POST['pass'];
+        $password = md5($_POST['pass']);
 	    $_SESSION["user"] = $user;
 
         $sql = "select * from login where username = '$user' and password = '$password'";  
